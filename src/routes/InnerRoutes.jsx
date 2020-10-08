@@ -26,6 +26,7 @@ import SendPromotion from "../views/SendPromotion/SendPromotion";
 import Promotions from "../views/SendPromotion/Promotions";
 import Support from "../views/Support/Support";
 import OnlineStore from "../views/OnlineStore/OnlineStore";
+import OrderDetails from "../views/OnlineStore/OrderDetails";
 import FAQ from "../views/Support/FAQ";
 // import Credits from "../views/Other/Credits";
 // import Subscription from "../views/Subscription/Subscription";
