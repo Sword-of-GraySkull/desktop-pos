@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, BrowserRouter as Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class OnlineStore extends Component {
   // constructor(props) {
@@ -10,7 +10,8 @@ class OnlineStore extends Component {
     return (
       <div className="online-store w-100 h-100">
         <div className="w-100 text-right p-2">
-          <button className="btn-del br-50">Delete Selected</button>
+          {/* b class is for bold */}
+          <button className="btn-del b br-50">Delete Selected</button>
         </div>
         <div className="online-box w-100">
           <p>Search order using</p>
@@ -53,11 +54,9 @@ class OnlineStore extends Component {
                   01-MAY-2020<br></br>10.00 AM
                 </td>
                 <td>
-                  <Router>
-                    <Link to="/order-details">
-                      <button className="btn-view">View</button>
-                    </Link>
-                  </Router>
+                  <Link to="online-store/order-details">
+                    <button className="btn-view">View</button>
+                  </Link>
                 </td>
               </tr>
             </tbody>
