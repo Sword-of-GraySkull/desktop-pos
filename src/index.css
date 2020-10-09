@@ -4054,7 +4054,6 @@ table.table.billing_prodcuts {
 .dashboard_check .w-100 .custom-control-label::before {
 	display: none;
 }
-
 /* Online Store Page */
 .online-store {
 	width: 100%;
@@ -4078,6 +4077,11 @@ div.online-box {
 	/* float: right; */
 }
 
+.b{
+	font-weight: bold;
+}
+
+
 .btn-view {
 	border: 0px solid transparent;
 	background-color: #F98327;
@@ -4087,7 +4091,13 @@ div.online-box {
 
 .online-input {
 	width: 360px;
+	border-radius: 2%;
 }
+
+.card-item {
+	margin: 10px 0;
+}
+
 
 
 
